@@ -1,0 +1,61 @@
+h1{
+  color: red;
+  text-align: center;
+}
+
+p{
+  color: red;
+  text-align: center;
+}
+img {
+	width: 165px;
+	height: 165px;
+margin-left: 20px;
+
+}
+
+nav{
+  float: left;
+  text-align: justify;
+  margin-left: 20px;
+  padding: 5px 5px;
+  margin-top:20px;
+  font-family: "Alegreya Sans SC", sans-serif;
+  color: black;
+  border: solid;
+}
+
+a /* Liens par défaut (non survolés) */
+{
+   text-decoration: none;
+   color: grey;
+   font-style: bold;
+}
+
+a:hover /* Apparence au survol des liens */
+{
+   text-decoration: none;
+   color: grey;
+   font-weight: bold;
+}
+
+body{
+  background-color: black;
+}
+section{
+  display: flex;
+  justify-content: flex-start;
+  align-items:flex-start;
+  border: solid;
+  color: red;
+  float: left;
+  margin-left: 20px;
+  padding: 20px;
+  margin-top:20px;
+  height: 900px;
+  width: 900px;
+}
+iframe{
+  border-radius: 20px;
+
+}
