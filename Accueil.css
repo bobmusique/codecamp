@@ -1,13 +1,22 @@
+body{
+  background-color: white;
+}
+
+
 h1{
-  color: red;
-  text-align: center;
+  font-family: 'Kalam', cursive;
+  font-size: 50px;
+  color:black;
+  display: flex;
+  justify-content: center;
 }
 
 p{
   color: red;
   text-align: center;
 }
-img {
+
+img.galet {
 	width: 165px;
 	height: 165px;
 margin-left: 20px;
@@ -20,33 +29,13 @@ nav{
   margin-left: 20px;
   padding: 5px 5px;
   margin-top:20px;
-  font-family: "Alegreya Sans SC", sans-serif;
-  color: black;
-  border: solid;
+    font-family: 'Kalam', cursive;
+
 }
 
-a /* Liens par défaut (non survolés) */
-{
-   text-decoration: none;
-   color: grey;
-   font-style: bold;
-}
 
-a:hover /* Apparence au survol des liens */
-{
-   text-decoration: none;
-   color: grey;
-   font-weight: bold;
-}
+.wrap{
 
-body{
-  background-color: black;
-}
-section{
-  display: flex;
-  justify-content: flex-start;
-  align-items:flex-start;
-  border: solid;
   color: red;
   float: left;
   margin-left: 20px;
@@ -55,7 +44,26 @@ section{
   height: 900px;
   width: 900px;
 }
-iframe{
-  border-radius: 20px;
 
+
+.row {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.plus {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+
+.moins {
+  width: 30px;
+  height: 30px;
+}
+
+.plus1 {
+  justify-content: center;
+  display:flex;
 }
