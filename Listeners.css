@@ -1,0 +1,20 @@
+body {
+  background-color: rgb(20,35,111);
+}
+
+
+a{
+  font-size: 84px;
+  color: rgb(251,243,250);
+font-family: 'Reenie Beanie', cursive;
+  text-align: center;
+  margin-top:21%;
+  margin-left: 40%;
+  position: absolute;
+}
+
+a:-webkit-any-link {
+    color: rgb(251,243,250);
+    cursor: auto;
+    text-decoration: none;
+}
