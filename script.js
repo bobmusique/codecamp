@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
-  $(".menud").click(function(){
-    $(".menud").FadeIn(3000);
+  $("h1").click(function(){
+    $("h1").FadeIn(3000);
 
 
   });

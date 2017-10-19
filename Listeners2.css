@@ -7,17 +7,18 @@ h1{
   color: rgb(251,243,250);
   font-family: 'Reenie Beanie', cursive;
   text-align: center;
-  
-  width: 50%;
-  margin-left:23%;
+  width: 57%;
+  margin-left: 23%;
+  margin-top: -105px;
   font-weight: normal;
-  position: fixed;
+  position: relative;
+  margin-bottom: 147px;
 }
 
 .menud {
-  margin-top:100px;
-  margin-left: -60px;
-  display: inline-block;
+  margin-top: 150px;
+margin-left: -60px;
+display: inline-block;
 }
 
 
@@ -28,23 +29,102 @@ nav {
   float: left;
   display: none;
   margin-left: 0px;
-  margin-top:20px;
+    margin-top: -170px;
 }
 
-nav:active {
-  background-color: rgb(194,42,115);
+.profil{
+  align-content: center;
+  margin: 25%;
+  margin-bottom: 10px;
+  border-radius: 100px;
 }
 
 .personne{
   border-radius: 100px;
-
 }
 
 section{
-  width: 64%;
+  width: 72%;
   height: 100%;
   display: flex;
-justify-content: space-between;
-align-content: center;
-margin-left: : 200px;
+  justify-content: space-between;
+  margin-left: 16%;
+  position: inherit;
+  margin-top: 30px;
+}
+
+.formulaire{
+  margin-left: 21px;
+}
+
+p{
+  font-family: 'Baloo Chettan', cursive;
+  color:black;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+a{
+  text-decoration: none;
+  font-style: normal;
+  font-family: 'Baloo Chettan', cursive;
+  color: black;
+  font-size: 15px;
+ }
+
+.nom{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 50px;
+  opacity: 20%;
+  display:flex;
+  justify-content: center;
+  background-position:top;
+}
+
+.nom:hover{
+   text-decoration: none;
+   color: white;
+   font-weight: normal;
+   font-family: 'Reenie Beanie', cursive;
+}
+
+ol{
+  margin-left: -5px;
+}
+
+.personne1{
+  border-radius: 100px;
+}
+
+.elementphoto1{
+  text-decoration: none;
+  font-weight: normal;
+  background-position:top;
+}
+
+.elementphoto1:hover{
+  text-decoration: none;
+color:white;
+  font-weight: normal;
+  background-position:top;
+}
+
+
+.personne2{
+  border-radius: 100px;
+}
+
+
+.personne3{
+  border-radius: 100px;
+}
+
+
+.personne4{
+  border-radius: 100px;
 }
