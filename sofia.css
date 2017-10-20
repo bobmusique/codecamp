@@ -1,0 +1,100 @@
+body {
+  background-color: rgb(20,35,111);
+}
+
+h1{
+  font-size: 84px;
+  color: rgb(251,243,250);
+  font-family: 'Reenie Beanie', cursive;
+  text-align: center;
+
+  width: 50%;
+  margin-left:23%;
+  font-weight: normal;
+}
+.menud {
+  margin-top:100px;
+  margin-left: -60px;
+  display: inline-block;
+}
+
+nav {
+  background-color: rgb(194,42,115);
+  width: 200px;
+  height: 600px;
+  float: left;
+  display: none;
+  margin-left: 0px;
+  margin-top:20px;
+}
+
+nav:active {
+  background-color: rgb(194,42,115);
+}
+
+.personne{
+  border-radius: 100px;
+
+}
+
+section{
+  display: flex;
+  justify-content:center;
+  text-align: center;
+  margin-left: : 300px;
+}
+
+.sofiaT{
+font-size: 25px;
+font-family: 'Shadows Into Light', cursive;
+text-align: center;
+color:white;
+display: flex;
+margin-left: 300px;
+border: solid;
+margin-right: 300px;
+}
+
+
+.wrap{
+  color: red;
+  float: left;
+  margin-left: 20px;
+  padding: 20px;
+  margin-top:20px;
+  height: 900px;
+  width: 900px;
+}
+
+
+.row {
+  width: 72%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 16%;
+  position: inherit;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.plus {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+
+.moins {
+  width: 30px;
+  height: 30px;
+}
+
+span.jaime {
+  text-align:center;
+  display:flex;
+}
+
+.rond2{
+  justify-content: flex-start;
+  display: flex;
+}
