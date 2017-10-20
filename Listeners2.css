@@ -7,18 +7,16 @@ h1{
   color: rgb(251,243,250);
   font-family: 'Reenie Beanie', cursive;
   text-align: center;
-  width: 57%;
-  margin-left: 23%;
-  margin-top: -105px;
+  width: 50%;
+  margin-left:23%;
   font-weight: normal;
-  position: relative;
-  margin-bottom: 147px;
+
 }
 
 .menud {
-  margin-top: 150px;
-margin-left: -60px;
-display: inline-block;
+  margin-top:100px;
+  margin-left: -60px;
+  display: inline-block;
 }
 
 
@@ -29,22 +27,22 @@ nav {
   float: left;
   display: none;
   margin-left: 0px;
-    margin-top: -170px;
+  margin-top:-253px;
+}
+
+nav:active {
+  background-color: rgb(194,42,115);
 }
 
 .profil{
-  align-content: center;
-  margin: 25%;
-  margin-bottom: 10px;
   border-radius: 100px;
-}
+  margin-left: 52px;
+  margin-top: 39px;
 
-.personne{
-  border-radius: 100px;
 }
 
 section{
-  width: 72%;
+  width: 64%;
   height: 100%;
   display: flex;
   justify-content: space-between;
@@ -97,17 +95,15 @@ ol{
   margin-left: -5px;
 }
 
-.personne1{
-  border-radius: 100px;
-}
 
-.elementphoto1{
+
+.element{
   text-decoration: none;
   font-weight: normal;
   background-position:top;
 }
 
-.elementphoto1:hover{
+.element:hover{
   text-decoration: none;
 color:white;
   font-weight: normal;
@@ -115,16 +111,187 @@ color:white;
 }
 
 
-.personne2{
-  border-radius: 100px;
+.mytxt1{
+  display:none;
+  position: absolute;
+  top: 104px;
+  left: 54px;
+}
+
+a{
+  position: relative;
+}
+
+a:hover .mytxt1{
+  display: block;
+  color: white;
+  font-weight: normal;
+  font-family: 'Reenie Beanie', cursive;
+    font-size: 54px;
+}
+
+.mytxt2{
+  display:none;
+  position: absolute;
+  top: 105px;
+  left: 27px;
+}
+
+a:hover .mytxt2{
+  display: block;
+  color: white;
+  font-weight: normal;
+  font-family: 'Reenie Beanie', cursive;
+    font-size: 45px;
 }
 
 
-.personne3{
-  border-radius: 100px;
+.mytxt3{
+  display:none;
+  position: absolute;
+  top: 105px;
+  left: 27px;
+}
+
+a:hover .mytxt3{
+  display: block;
+  color: white;
+  font-weight: normal;
+  font-family: 'Reenie Beanie', cursive;
+    font-size: 45px;
 }
 
 
-.personne4{
+.mytxt4{
+  display:none;
+  position: absolute;
+  top: 109px;
+  left: 39px;
+}
+a:hover .mytxt4{
+  display: block;
+  color: white;
+  font-weight: normal;
+  font-family: 'Reenie Beanie', cursive;
+    font-size: 50px;
+}
+
+
+.mytxt5{
+  display:none;
+  position: absolute;
+  top: 104px;
+  left: 54px;
+}
+a:hover .mytxt5{
+  display: block;
+  color: white;
+  font-weight: normal;
+  font-family: 'Reenie Beanie', cursive;
+    font-size: 54px;
+}
+
+.mytxt6{
+  display:none;
+  position: absolute;
+  top: 100px;
+  left: 29px;
+}
+a:hover .mytxt6{
+  display: block;
+  color: white;
+  font-weight: normal;
+  font-family: 'Reenie Beanie', cursive;
+    font-size: 54px;
+}
+
+.mytxt7{
+  display:none;
+  position: absolute;
+  top: 96px;
+  left: 21px;
+}
+
+a:hover .mytxt7{
+  display: block;
+  color: white;
+  font-weight: normal;
+  font-family: 'Reenie Beanie', cursive;
+    font-size: 54px;
+}
+
+.mytxt8{
+  display:none;
+  position: absolute;
+  top: 113px;
+  left: 56px;
+}
+a:hover .mytxt8{
+  display: block;
+  color: white;
+  font-weight: normal;
+  font-family: 'Reenie Beanie', cursive;
+    font-size: 45px;
+}
+
+.mytxt9{
+  display:none;
+  position: absolute;
+  top: 104px;
+  left: 54px;
+}
+a:hover .mytxt9{
+  display: block;
+  color: white;
+  font-weight: normal;
+  font-family: 'Reenie Beanie', cursive;
+    font-size: 54px;
+}
+
+.mytxt10{
+  display:none;
+  position: absolute;
+  top: 104px;
+  left: 54px;
+}
+a:hover .mytxt10{
+  display: block;
+  color: white;
+  font-weight: normal;
+  font-family: 'Reenie Beanie', cursive;
+    font-size: 54px;
+}
+
+.mytxt11{
+  display:none;
+  position: absolute;
+  top: 109px;
+  left: 34px;
+}
+a:hover .mytxt11{
+  display: block;
+  color: white;
+  font-weight: normal;
+  font-family: 'Reenie Beanie', cursive;
+    font-size: 54px;
+}
+
+.mytxt12{
+  display:none;
+  position: absolute;
+  top: 104px;
+  left: 54px;
+}
+a:hover .mytxt12{
+  display: block;
+  color: white;
+  font-weight: normal;
+  font-family: 'Reenie Beanie', cursive;
+    font-size: 54px;
+}
+
+
+
+.personne1, .personne2, .personne3, .personne4, .personne5, .personne6, .personne7, .personne8, .personne9, .personne10, .personne11, .personne12 {
   border-radius: 100px;
 }

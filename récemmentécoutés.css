@@ -1,0 +1,116 @@
+body {
+  background-color: rgb(20,35,111);
+}
+
+h1{
+  font-size: 69px;
+  color: rgb(251,243,250);
+  font-family: 'Reenie Beanie', cursive;
+  text-align: center;
+  width: 50%;
+  margin-top: -6%;
+  margin-left:26%;
+  font-weight: normal;
+
+}
+
+.menud {
+  margin-top:100px;
+  margin-left: -60px;
+  display: inline-block;
+}
+
+
+nav {
+  background-color: rgb(194,42,115);
+  width: 200px;
+  height: 600px;
+  float: left;
+  display: none;
+  margin-left: 0px;
+  margin-top:-253px;
+}
+
+nav:active {
+  background-color: rgb(194,42,115);
+}
+
+.profil{
+  border-radius: 100px;
+  margin-left: 52px;
+  margin-top: 39px;
+
+}
+
+section{
+  width: 64%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 16%;
+  position: inherit;
+  margin-top: 30px;
+}
+
+.formulaire{
+  margin-left: 21px;
+}
+
+p{
+  font-family: 'Baloo Chettan', cursive;
+  color:black;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+a{
+  text-decoration: none;
+  font-style: normal;
+  font-family: 'Baloo Chettan', cursive;
+  color: black;
+  font-size: 15px;
+ }
+
+.nom{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 50px;
+  opacity: 20%;
+  display:flex;
+  justify-content: center;
+  background-position:top;
+}
+
+.nom:hover{
+   text-decoration: none;
+   color: white;
+   font-weight: normal;
+   font-family: 'Reenie Beanie', cursive;
+}
+
+ol{
+  margin-left: -5px;
+}
+
+.element{
+  text-decoration: none;
+  font-weight: normal;
+  background-position:top;
+}
+
+.element:hover{
+  text-decoration: none;
+color:white;
+  font-weight: normal;
+  background-position:top;
+}
+
+.twitter {
+  justify-content: center;
+  display: flex;
+  left: 200px;
+}

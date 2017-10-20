@@ -10,7 +10,7 @@ h1{
   width: 50%;
   margin-left:23%;
   font-weight: normal;
-  position: fixed;
+
 }
 
 .menud {
@@ -27,23 +27,94 @@ nav {
   float: left;
   display: none;
   margin-left: 0px;
-  margin-top:20px;
+  margin-top:-336px;
 }
 
 nav:active {
   background-color: rgb(194,42,115);
 }
 
+.formulaire{
+  margin-left: 21px;
+}
+
+p{
+  font-family: 'Baloo Chettan', cursive;
+  color:black;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+a{
+  text-decoration: none;
+  font-style: normal;
+  font-family: 'Baloo Chettan', cursive;
+  color: black;
+  font-size: 15px;
+ }
+
+.nom{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 50px;
+  opacity: 20%;
+  display:flex;
+  justify-content: center;
+  background-position:top;
+}
+
+.nom:hover{
+   text-decoration: none;
+   color: white;
+   font-weight: normal;
+   font-family: 'Reenie Beanie', cursive;
+}
+
+ol{
+  margin-left: -5px;
+}
+
+.element{
+  text-decoration: none;
+  font-weight: normal;
+  background-position:top;
+}
+
+.element:hover{
+  text-decoration: none;
+color:white;
+  font-weight: normal;
+  background-position:top;
+}
+
+
+.profil{
+  border-radius: 100px;
+  margin-left: 52px;
+  margin-top: 39px;
+
+}
 
 .personne{
   border-radius: 100px;
+  margin-left: 52px;
+  margin-top: 39px;
 }
 
 section{
-  display: flex;
-  justify-content:center;
-  text-align: center;
-  margin-left: : 300px;
+position: absolute;
+top: 38px;
+left: 37%;
+width: 100px;
+height: 100px;
+}
+
+.formulaire{
+  margin-left: 21px;
 }
 
 .sofiaT{
@@ -93,10 +164,16 @@ margin-right: 300px;
 
 span.jaime {
   text-align:center;
-  display:flex;
+  display:block;
 }
 
 .rond2{
   justify-content: flex-start;
   display: flex;
+}
+
+.twitter {
+  justify-content: center;
+  display: flex;
+  left: 200px;
 }
